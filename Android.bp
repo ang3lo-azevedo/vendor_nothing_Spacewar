@@ -5112,6 +5112,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libqti-perfd-client",
     owner: "nothing",
@@ -5156,6 +5157,7 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libqti-perfd",
