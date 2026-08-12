@@ -25779,6 +25779,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
     system_ext_specific: true,
 }
@@ -25895,6 +25896,7 @@ cc_prebuilt_library_shared {
             ],
         },
     },
+    check_elf_files: false,
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
@@ -27324,6 +27326,7 @@ cc_prebuilt_binary {
                 "libdl",
             ],
         },
+    check_elf_files: false,
     },
     compile_multilib: "64",
     strip: {
