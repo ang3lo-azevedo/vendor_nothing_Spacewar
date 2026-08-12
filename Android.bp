@@ -27326,9 +27326,9 @@ cc_prebuilt_binary {
                 "libdl",
             ],
         },
-    check_elf_files: false,
     },
     compile_multilib: "64",
+    check_elf_files: false,
     strip: {
         none: true,
     },
